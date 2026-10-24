@@ -1,0 +1,34 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.idea/
+
+# Added for the public copy
+build/
+local.properties
+captures/
+*.apk
+*.aab
+*.jks
+*.keystore
+google-services.json
+
+# Card and battleground art was removed on purpose (see README); keep it out
+app/src/main/res/drawable*/
+*.jpg
+*.jpeg
+
+# Documents are not part of this repository
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+
+Thumbs.db
